@@ -2,25 +2,58 @@
  "actions": [],
  "allow_bulk_edit": 1,
  "allow_rename": 1,
+ "autoname": "field:skill_name",
  "creation": "2026-07-10 17:23:26.731637",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_duyh"
+  "section_break_duyh",
+  "skill_name",
+  "skill_category",
+  "description",
+  "is_active"
  ],
  "fields": [
   {
    "fieldname": "section_break_duyh",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "skill_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Skill Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "skill_category",
+   "fieldtype": "Select",
+   "label": "Skill Category",
+   "options": "Technical\nSoft Skill\nDomain\nTool",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active",
+   "options": "1\n0"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-10 17:23:26.731637",
+ "modified": "2026-07-10 17:34:36.690742",
  "modified_by": "Administrator",
  "module": "Employee_hub",
  "name": "Skill",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
