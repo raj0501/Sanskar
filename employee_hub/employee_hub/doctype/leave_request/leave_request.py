@@ -60,6 +60,7 @@ class LeaveRequest(Document):
         employee = frappe.get_doc("Employee", self.employee)
         employee.annual_leave_balance -= self.total_days
         employee.save(ignore_permissions=True)
+        employee.employee_status = "On Leave"
 
     def on_cancel(self):
         if self.rejection_reason:
