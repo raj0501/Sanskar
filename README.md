@@ -20,6 +20,22 @@ Employee_hub_system
 
 - Leave Configuration
 
+## Reports
+
+- Department Wise Employee Summary (Script Report)
+
+---
+
+## Print Format
+
+- Employee ID Card
+
+---
+
+## Workflow
+
+Leave Approval Workflow
+
 
 ### Installation
 
