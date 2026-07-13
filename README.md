@@ -2,6 +2,25 @@
 
 Employee_hub_system
 
+## DocTypes
+
+### Master DocTypes
+
+- Department
+- Designation
+- Skill
+
+### Transactional DocTypes
+
+- Employee
+- Employee Skill (Child Table)
+- Leave Request (Submittable)
+
+### Single DocType
+
+- Leave Configuration
+
+
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
