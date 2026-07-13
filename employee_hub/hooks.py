@@ -22,7 +22,9 @@ app_license = "mit"
 # ]
 # Includes in <head>
 # ------------------
-
+fixtures = [
+    "Workflow"
+]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/employee_hub/css/employee_hub.css"
 # app_include_js = "/assets/employee_hub/js/employee_hub.js"
