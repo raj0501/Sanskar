@@ -1,0 +1,19 @@
+.status-active {
+    color: green;
+    font-weight: bold;
+}
+
+.status-on-leave {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-inactive {
+    color: gray;
+    font-weight: bold;
+}
+
+.status-terminated {
+    color: red;
+    font-weight: bold;
+}

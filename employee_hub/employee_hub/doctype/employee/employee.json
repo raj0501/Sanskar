@@ -13,6 +13,7 @@
   "full_name",
   "employee_email",
   "phone",
+  "blood_group",
   "date_of_birth",
   "date_of_joining",
   "department",
@@ -130,12 +131,18 @@
    "fieldtype": "Table",
    "label": "Skills",
    "options": "Employee Skill"
+  },
+  {
+   "fieldname": "blood_group",
+   "fieldtype": "Select",
+   "label": "Blood Group",
+   "options": "A+\nA-\nB+\nB-\nAB+\nAB-\nO+\nO-"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-13 12:17:30.202212",
+ "modified": "2026-07-13 13:30:11.223509",
  "modified_by": "Administrator",
  "module": "Employee_hub",
  "name": "Employee",

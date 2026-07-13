@@ -22,9 +22,30 @@ app_license = "mit"
 # ]
 # Includes in <head>
 # ------------------
+doc_events = {
+    "Employee": {
+        "before_save": "employee_hub.employee_hub.doctype.employee.employee.before_save"
+    }
+}
 fixtures = [
-    "Workflow"
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["dt", "in", ["Employee", "Leave Request"]]
+        ]
+    },
+    {
+        "dt": "Property Setter"
+    },
+    {
+        "dt": "Workflow"
+    },
+    {
+        "dt": "Role"
+    }
 ]
+app_include_css = "/assets/employee_hub/css/employee_hub.css"
+app_include_js = "/assets/employee_hub/js/employee_hub.js"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/employee_hub/css/employee_hub.css"
 # app_include_js = "/assets/employee_hub/js/employee_hub.js"

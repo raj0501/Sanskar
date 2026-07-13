@@ -1,0 +1,49 @@
+{
+ "app": "employee_hub",
+ "charts": [],
+ "content": "[]",
+ "creation": "2026-07-13 13:17:17.741744",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "airplay",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Demo_emp",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2026-07-13 13:18:43.856678",
+ "modified_by": "Administrator",
+ "module": "Employee_hub",
+ "name": "Demo_emp",
+ "number_cards": [],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 0.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Employee",
+   "link_to": "Employee",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Leave Request",
+   "link_to": "Leave Request",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Department",
+   "link_to": "Department",
+   "type": "DocType"
+  }
+ ],
+ "title": "Demo_emp",
+ "type": "Workspace"
+}
